@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/fullscreen_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/way"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:text="            L   O   G   I   N"
+        android:textColor="#dcdcdc"
+        android:textSize="27dp"
+        android:textStyle="bold|italic"
+        android:shadowColor="#0000ff"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="5"/>
+
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="50dp">
+
+        <EditText
+            android:id="@+id/id"
+            android:hint="Enter Your ID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:background="@android:color/transparent"/>
+
+        <EditText
+            android:id="@+id/pass"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:background="@android:color/transparent"/>
+
+
+
+        <ImageButton
+            android:id="@+id/accounte"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/loginn" />
+    </LinearLayout>
+</RelativeLayout>
