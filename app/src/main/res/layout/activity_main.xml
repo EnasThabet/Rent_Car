@@ -38,6 +38,7 @@
 
         <ImageButton
             android:id="@+id/login"
+            android:onClick="btnLogOnclick"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:scaleType="centerCrop"
@@ -45,7 +46,8 @@
             android:layout_marginBottom="20dp" />
 
         <ImageButton
-            android:id="@+id/accounte"
+            android:id="@+id/account"
+            android:onClick="btnAccOnclick"
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:scaleType="centerCrop"
